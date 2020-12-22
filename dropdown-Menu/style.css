@@ -1,0 +1,66 @@
+/**Reset css**/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+#main{
+	overflow: auto; /**Clear float**/
+}
+#main .nav{
+	font-family: arial;
+	font-size: 16px;
+	position:  relative;
+	background-color: hls(167, 100%, 31%);
+	margin-top: 100px;
+	font-weight: bold;
+	max-width: 20%;
+	float: left;
+	margin: 0px 200px 0px 0px; 
+	min-height: 350px;
+
+
+}
+
+#main .nav .menu li{
+	padding: 8px;
+	position: relative;
+	border-bottom: 1px solid #fff;
+		display: inline-table;
+
+}
+#main .nav .menu li:hover{
+	color:  #fff;
+	background: #00FF99FF;
+}
+#main .nav .menu li a{
+	color:  yellow;
+	text-decoration: none;
+	padding: 8px;
+
+
+}
+#main .nav .menu li .sub-menu{
+	max-width: 250px;
+	position: absolute;
+	background-color: #00D199FF;
+	left:  100%;
+	top:  0;
+}
+#main .nav .menu li .sub-menu li{
+	display:  none;
+}
+#main .nav .menu li .sub-menu li{
+	color: #fff;
+	padding: 8px;
+
+}
+#main .nav .menu li:hover .sub-menu li{
+	display:  block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+
