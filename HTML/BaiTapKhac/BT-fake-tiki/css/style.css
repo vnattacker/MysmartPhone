@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background: rgb(244, 244, 244);
+}
+
+#header {
+    background: #fff;
+    padding-bottom: 8px;
+}
+
+#main {}
+
+#footer {
+    background: #fff;
+    padding: 15px;
+    margin: 10px auto;
+}
