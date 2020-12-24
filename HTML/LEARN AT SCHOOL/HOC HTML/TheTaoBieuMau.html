@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thẻ tạo biểu mẫu</title>
+</head>
+<body>
+	<form action="">
+		<fieldset>
+			<legend>Đăng nhập</legend>
+			<div>
+				<label for="">Họ tên</label>
+				<input type="text" name="HoTen"/>
+			</div>
+			
+			<div>
+				<label for="">Mật khẩu</label>
+				<input type="password" name="MatKhau">
+			</div>
+
+			<div>
+				<input type="button" value="Đăng nhập">
+				<button>Huỷ</button>
+			</div>
+		</fieldset>
+		
+
+
+		<h3>Bạn đã đi du lịch ở TP nào?</h3>
+		<label for=""><input type="checkbox" name="HaNoi">Hà Nội</label>
+		<label for=""><input type="checkbox" name="Hue" checked="">Huế</label>
+		<label for=""><input type="checkbox" name="HoiAn">Hội An</label>
+		<label for=""><input type="checkbox" name="TPHCM">TP. HCM</label>
+
+		<h3>Theo bạn đội bóng của khoa nào sẽ vô địch giải bóng đá nam ?</h3>
+		<label for=""><input type="radio" name="BongDa">CNTT</label>
+		<label for=""><input type="radio" name="BongDa">QTKD</label>
+		<label for=""><input type="radio" name="BongDa">DUOC</label>
+		<label for=""><input type="radio" name="BongDa">Y</label>
+		<br><br>
+		<label for="">Chọn nơi sinh:</label>
+
+		<select name="tinhthanh" id="">
+			<option value="1">Hà Nội</option>
+			<option value="2">Bắc Ninh</option>
+			<option value="3">Bắc Giang</option>
+			<option value="4">Hưng Yên</option>
+			<option value="5">Hải Dướng</option>
+			<option value="6">Hải Phòng</option>
+		</select>
+
+		<br><br>
+		<select name="tinhthanh" id="" size="5" multiple="">
+			<option value="1">Hà Nội</option>
+			<option value="2">Bắc Ninh</option>
+			<option value="3">Bắc Giang</option>
+			<option value="4">Hưng Yên</option>
+			<option value="5">Hải Dướng</option>
+			<option value="6">Hải Phòng</option>
+		</select>
+
+		<br><br>\
+		<label for="">Ghi chú</label>
+		<textarea name="ghichu" id="" cols="60" rows="15"></textarea>
+	</form>
+</body>
+</html>

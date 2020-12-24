@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 450px;
+            height: 350px;
+            border: 1px solid #336699;
+            margin: 10px auto;
+        }
+        
+        .container h3 {
+            background-color: #336699;
+            color: #fff;
+            text-align: center;
+            padding: 8px;
+        }
+        
+        .container div,
+        .container input[type="button"] {
+            margin-top: 20px;
+        }
+        
+        .container div label {
+            width: 90px;
+            display: block;
+            float: left;
+            margin-left: 10px;
+            font-size: 16px;
+        }
+        
+        .container div input[type="text"] {
+            width: 300px;
+            height: 22px;
+        }
+        
+        .container input[type="button"] {
+            padding: 6px 20px;
+            background-color: #00FF90FF;
+            border: 1px solid green;
+            color: #fff;
+            border-radius: 5px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+        <div class="container">
+            <h3>THÔNG TIN THÀNH VIÊN</h3>
+            <div>
+                <label for="">Họ tên</label>
+                <input type="text" name="Hoten">
+            </div>
+
+
+            <div>
+                <label for="">Địa chỉ</label>
+                <input type="text" name="DiaChi">
+            </div>
+
+            <div>
+                <label for="">Email</label>
+                <input type="text" name="Email">
+            </div>
+
+            <input type="button" value="Nhập">
+        </div>
+
+    </form>
+</body>
+
+</html>

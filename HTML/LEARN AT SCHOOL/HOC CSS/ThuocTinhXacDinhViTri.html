@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thuộc tính xác định vị trí</title>
+	<style>
+		*{
+			margin: 0;
+			margin: 0;
+
+		}
+		.container{
+			width: 450px;
+			height: 350px;
+			border:  1px solid #1b5e29;
+			margin: 10px auto;
+		}
+		.container  h1{
+			background-color: #1b5e29;
+			text-align: center;
+			color:  #ffffff;
+			padding: 6px;	
+			}
+		.container p{
+				margin: 8px 10px;
+				text-align: justify;
+				font-size:  18px;
+				line-height: 1.7em;
+			}
+		.container p.second{
+			position: relative;
+		}
+		.container p.second img{
+			width:  100px;
+			height: 150px;
+			position: absolute;
+			top: -70px;
+			left: 150px;
+			z-index: -1000;
+			clip: rect(10px 80px 150px 10px); /***rect(top right bottom left)*/
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Position</h1>
+		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor, ab voluptate autem recusandae quas et nemo fugiat similique at laborum sed in? Quis delectus eligendi illo quod, saepe asperiores!</p>
+		<p class="second">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Ducimus nisi fuga, aut officiis iusto, quisquam eaque amet soluta natus explicabo suscipit omnis laboriosam quam. Quae voluptas, ipsum aliquam dolorum inventore.
+				<img src="img/images.jfif" alt="Hoa hồng">
+		</p>
+	</div>
+</body>
+</html>				
