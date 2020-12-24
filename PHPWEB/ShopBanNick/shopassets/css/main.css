@@ -44,28 +44,10 @@
 }
 
 
-/**Header - Nav menu logo-text**/
+/**Avatar profiles**/
 
-#header .nav-menu .logo-text {
-    position: absolute;
-    top: 5px;
-    left: 50%;
-    width: 96px;
-    height: 96px;
-    border-radius: 50%;
-    background: #aaea9e;
-    box-shadow: 1px 1px 9px 4px #33ff00;
-}
-
-#header .nav-menu .logo-text a {
-    position: absolute;
-    top: 32px;
-    left: 17%;
-    background-image: linear-gradient(45deg, #b92fbf 0%, #25986a 52%, #bd6d09 90%);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 23pt;
-    font-weight: bold;
+.nav-right li a.AVTprofiles {
+    text-decoration: none;
 }
 
 
