@@ -1,0 +1,34 @@
+
+
+/**Bottom header**/
+#header .bottom-header{
+	width: 90%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+/*Bottom header-left*/
+#header .bottom-header .bhl-items{
+	float: left;
+	margin-right: 30px;
+}
+#header .bottom-header .bhl-items ul{
+	background: #dbdbdb;
+	list-style: none;
+	padding:15px;
+}
+#header .bottom-header .bhl-items ul li{
+	margin-bottom: 10px;
+}
+
+#header .bottom-header .bhl-items ul li a{
+	
+	display: flex;
+
+}
+#header .bottom-header .bhl-items ul li a span:first-child{
+	width:  40px;
+	text-align: center;
+}
+
+
+
