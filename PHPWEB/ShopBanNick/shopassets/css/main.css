@@ -10,7 +10,7 @@
     ;
     border-bottom: 1px solid #dbdbdb;
     overflow: hidden;
-    background: #176A63;
+    background: #efefef;
 }
 
 #header .nav-menu ul {}
@@ -23,10 +23,10 @@
 
 #header .nav-menu ul li a {
     text-decoration: none;
-    color: yellow;
-    padding: 40px;
+    color: #777;
+    padding: 10px;
     font-weight: bold;
-    font-size: 18pt;
+    font-size: 16px;
 }
 
 
@@ -46,8 +46,29 @@
 
 /**Avatar profiles**/
 
-.nav-right li a.AVTprofiles {
+.nav-container {
+    position: relative;
+}
+
+.nav-container a.AVTprofiles {
     text-decoration: none;
+    position: absolute;
+    display: inline-flex;
+    left: 52%;
+    bottom: -45px;
+}
+
+.nav-container a.AVTprofiles span img {
+    width: 43px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nav-container a.AVTprofiles span:last-child {
+    line-height: 43px;
+    color: red;
+    font-size: 14px;
 }
 
 
@@ -85,7 +106,7 @@
     top: 90%;
     color: #fff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 5px;
 }
 
@@ -115,6 +136,7 @@
     margin: 5px;
     height: 293px;
     overflow: hidden;
+    font-weight: bold;
 }
 
 #header .h-notify .hn-items p {
@@ -212,11 +234,12 @@
 }
 
 #footer .f-bottom {
-    background: #176A63;
+    background: #000;
 }
 
 #footer .f-bottom p {
-    color: yellow;
+    color: rgb(255 170 12);
     text-align: center;
     padding: 8px;
+    font-weight: 700;
 }

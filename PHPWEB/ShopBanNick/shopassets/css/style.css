@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial;
+    font-family: Roboto;
     font-size: 16px;
 }
 
@@ -22,6 +22,6 @@ body {
 }
 
 #footer {
-    background: #007369ab;
+    background: #000000ab;
     overflow: auto;
 }
