@@ -1,44 +1,8 @@
-body {
-    background: url("../../img/background.jpg") no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.top {
-    background-color: #157bb0;
-    height: 40px;
-    padding: 10px 0;
-}
-
-.top-left a,
-.top-left {
-    color: #fff;
-}
-
-.top-left a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-
-.margin-top-20px {
-    margin-top: 20px;
-}
-
-.panel {
-    font-family: "Roboto";
-}
-
-.panel-heading {
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-
 /**reset css**/
 
 * {
     margin: 0;
+    padding: 0;
 }
 
 body {

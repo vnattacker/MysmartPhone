@@ -1,4 +1,5 @@
 <!--Phần chân-->
+<script src="./shopassets/js/js/bootstrap.js"></script>
 <div id="footer">
         <div class="f-top">
             <!--footer column 01-->
