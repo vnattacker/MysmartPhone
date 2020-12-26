@@ -35,8 +35,11 @@
         <a href="PDF">Tài liệu học tập</a>
     </div>
     <script>
-        var a = prompt("Nhập tên của bạn để nhận 50k thẻ cào:", )
-        document.getElementById("contain").innerHTML = "ĐM " + a + " tin người vcl <img src='tdkicon.jpg'/>";
+        var a = prompt("Nhập tên của bạn để nhận 50k thẻ cào:")
+        while (a == "") {
+            a = prompt("Nhập tên của bạn để nhận 50k thẻ cào:");
+        }
+        document.getElementById("contain").innerHTML = "Có CL. " + a + " tin người vcl <img src='tdkicon.jpg'/>";
     </script>
 </body>
 
