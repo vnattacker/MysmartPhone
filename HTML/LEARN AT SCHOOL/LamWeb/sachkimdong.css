@@ -1,0 +1,101 @@
+/*****CSS*****/
+*{
+	padding:  0;
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#container{
+	margin:  0px auto;
+	width: auto;
+	max-width: 1100px;
+}
+/**Header**/
+#header{
+	width: 100%;	 
+	background: #33691e;
+	padding: 30px 0px;
+}
+#header h1 a{
+	color:  #fff;
+	text-transform: uppercase;
+	margin-left: 30px;
+}
+/**Menu**/
+#menu{
+	background: #212121;
+}
+
+#menu ul li{
+	display: inline-table;
+	padding: 8px;
+	border-right: 1px solid #fff;
+}
+#menu ul li a {
+	color:  #fff;
+	padding:  8px 20px;
+}
+#menu ul li a:hover {
+	color:  #ffea00;
+}
+/**Content left**/
+#content{
+	width: 100%;
+}
+#left{
+	background: #4caf50;
+	width: 25%;
+	
+	float: left;
+}
+#left ul li{
+	line-height: 2.5em;
+	
+}
+#left ul li a{
+	color:  #fff;
+}
+#right{
+	width: 75%;
+	background: #8d6e63;
+	float: right; 
+
+}
+#right div{
+	margin: 20px  0px 12px 0px;	
+}
+#right div label{
+	width: 90px;
+	display: block;
+	float: left;
+	margin-left: 20px;
+	font-weight: bold;
+	color:  #fff;
+}
+#right div input[type="text"]{
+	width: 80%;
+	height: 22px;
+}
+#right div input[type="button"]{
+	margin-left: 110px;
+	padding:  8px 20px;
+}
+
+#footer{
+	background: #33691e;
+	padding:  25px 0;
+	clear: both;
+
+}
+#footer p{
+	text-transform: uppercase;
+	text-align: center;
+	color:  #fff;
+	line-height: 1.2em;
+	margin-top:  10px;
+}
