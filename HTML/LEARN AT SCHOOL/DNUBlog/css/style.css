@@ -290,3 +290,27 @@ body {
 	color: #fff;
 
 }
+/*#page-info*/
+#page-info{
+	background: #212121;
+	
+}
+#page-info .wraper{
+	max-width: 960px;
+	width: auto;
+	margin: 0px auto;
+	padding: 25px auto;
+	position: relative;
+}
+#page-info .copy-right a{
+	color: #ff3d00;
+}
+#page-info .social{
+	position: absolute;
+	left: 20px;
+	right: 0px;
+}
+#page-info .social ul li{
+	display: inline-table;
+	margin-left: 10px;
+}
