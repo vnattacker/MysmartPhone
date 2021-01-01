@@ -1,6 +1,88 @@
+/*Stylesheet by TĐK*/
+
+
+/**đặt biến toàn cục**/
+
 :root {
-    --text-color: #ff3d00;
-    --nav-background: #ff3d00;
+    --spec-color: #ff3d00;
+    --bg-color: #f5f5f5;
     --border-style: 1px solid #dbdbdb;
     --bg-body: #ababab;
+    --a-text-color: #333;
+    --a-text-color02: #fff;
+    --icon-family: "Font Awesome 5 Pro";
+    --font-14: 14px;
+    --font-16: 16px;
+    --font-18: 18px;
+    --font-38: 38px;
+    --price-color: #ff3d00;
+    --bg-cate-title-01: #d4a359;
+    --bg-cate-title-02: #e6854b;
+    --bg-cate-title-02: #f36140;
+}
+
+
+/**Reset css**/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/**css mặc định**/
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--bg-body);
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#header,
+#footer {
+    width: auto;
+    max-width: 100%;
+}
+
+#banner,
+#main {
+    width: auto;
+    max-width: 1100px;
+    margin: 10px auto;
+}
+
+img {
+    max-width: 1100px;
+}
+
+.icon:before {
+    font-family: var(--icon-family);
+}
+
+a {
+    text-decoration: none;
+    color: var(--a-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+}
+
+.rate-star::before {
+    font-family: var(--icon-family);
+    content: "\f005";
+    font-size: 18px;
+    color: var(--spec-color);
+}
+
+.prices {
+    font-size: 13px;
+    color: var(--price-color);
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
 }
