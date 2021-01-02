@@ -1,0 +1,42 @@
+/***
+** 
+* Page-style by TĐK
+**
+*/
+
+
+/**#content .ct-container**/
+
+#content .ct-container {
+    display: flex;
+}
+
+
+/**.lct-menu**/
+
+#content .ct-container .lct-menu {
+    background: var(--bg-color);
+    width: 15.33%;
+}
+
+#content .ct-container .lct-menu>h3 {
+    background: var(--bg-cate-title-03);
+    padding: 20px 10px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content .ct-container .lct-menu .menu {
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+#content .ct-container .lct-menu .menu ul {
+    padding-left: 10px;
+}
+
+#content .ct-container .lct-menu .menu ul li {
+    margin-top: 8px;
+}

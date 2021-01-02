@@ -31,7 +31,7 @@
 
 #logo a img {
     width: 230px;
-    height: 64px;
+    height: 80px;
 }
 
 
@@ -45,8 +45,6 @@
 #search-bar div {
     width: 100%;
 }
-
-#search-bar div:first-child {}
 
 #search-bar div input {
     width: 100%;
@@ -67,7 +65,7 @@
     border-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    padding: 7px;
+    padding: 7.5px;
     margin-left: 0px;
     border-style: none;
 }
@@ -101,13 +99,62 @@
     margin-right: 40px;
 }
 
-#nav ul li {
+#nav ul>li {
+    position: relative;
     display: inline-table;
     margin-right: 20px;
 }
 
-#nav ul li a {
+#nav ul>li a {
     color: #fff;
+    text-transform: uppercase;
+    display: block;
+    padding: 30px 20px;
+}
+
+#nav ul>li a:hover {
+    background: var(--bg-cate-title-01)
+}
+
+#nav ul>li a .icon-begai {
+    width: 24px;
+    height: 24px;
+    background: url(../images/icons/begai-icon.png) left center no-repeat;
+}
+
+
+/**.sub-menu**/
+
+#nav ul>li .sub-menu {
+    position: absolute;
+    min-width: 300px;
+    width: auto;
+    max-width: 350px;
+    background: var(--bg-cate-title-02);
+    top: 50px;
+    padding: 8px 5px;
+    display: none;
+}
+
+#nav ul>li .sub-menu li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    display: block;
+}
+
+#nav ul>li .sub-menu li a {
+    display: block;
+    font-size: var(--font-14);
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+#nav ul>li:hover .sub-menu {
+    display: block;
+    z-index: 99999;
 }
 
 
@@ -136,7 +183,7 @@
 
 #user-info .icon-login::before {
     font-family: var(--icon-family);
-    content: "\f2f6";
+    content: var(--icon-login);
     color: #fff;
     font-size: var(--font-14);
     width: 90px;
@@ -154,7 +201,7 @@
 }
 
 #user-info div a .icon-register:before {
-    content: "\f234";
+    content: var(--icon-register);
     font-family: var(--icon-family);
     font-size: var(--font-14);
     color: #fff;
@@ -169,7 +216,6 @@
 }
 
 #user-info .carts a {
-    /* display: flex;*/
     position: relative;
 }
 
@@ -178,7 +224,7 @@
 }
 
 #user-info .carts a .icon-carts:before {
-    content: "\f07a";
+    content: var(--icon-cart);
     font-family: var(--icon-family);
     font-size: var(--font-38);
     color: #fff;
@@ -190,7 +236,7 @@
     position: absolute;
     top: -18px;
     left: 37px;
-    color: var(--main-color);
+    color: var(--spec-color);
     background: #fff;
     border-radius: 50%;
     padding: 3px;
@@ -215,6 +261,7 @@
 
 #banner .big-banner {
     flex: 1;
+    margin-right: 3px;
 }
 
 #banner .big-banner .banner-item a img {
@@ -237,6 +284,7 @@
 
 #content {
     background-color: var(--bg-color);
+    padding: 5px;
 }
 
 
@@ -253,6 +301,14 @@
     display: inline-table;
     color: var(--spec-color);
     padding: 6px 20px;
+}
+
+#content .hot-box .cate-title h3:before {
+    font-family: var(--icon-family);
+    content: var(--icon-fire);
+    font-size: var(--font-14);
+    color: var(--spec-color);
+    margin-right: 5px;
 }
 
 #content .hot-box .item-container {
@@ -275,6 +331,12 @@
     color: var(--a-text-color);
     text-align: center;
     display: block;
+    font-size: var(--font-14);
+    font-weight: normal;
+}
+
+#content .hot-box .item-container .items a:hover {
+    color: var(--spec-color);
 }
 
 #content .hot-box .item-container .items a img {
@@ -287,15 +349,128 @@
 
 #content .category-box {
     display: flex;
+    padding: 10px;
+    border: 0.5px solid #dbdbdb;
+    margin-top: 10px;
 }
 
+
+/**.sub-catemenu**/
+
 #content .category-box .sub-catemenu {
-    width: auto;
-    max-width: 30%;
+    width: 55%;
 }
 
 #content .category-box .sub-catemenu h3 {
-    background: var(--bg-cate-title-01);
-    padding: 20px 10px;
+    padding: 50px 15px 15px 15px;
     color: #f5f5f5;
+    background: var(--bg-cate-title-01);
+    text-align: center;
+}
+
+#content .category-box .sub-catemenu .begai {
+    background: var(--bg-cate-title-01) url('../images/icons/begai-icon.png') top center no-repeat;
+    background-size: 52px;
+}
+
+#content .category-box .sub-catemenu .betrai {
+    background: var(--bg-cate-title-02) url('../images/icons/babyboy-icon.png') top center no-repeat;
+    background-size: 52px;
+}
+
+#content .category-box .sub-catemenu ul li {
+    margin-top: 10px;
+}
+
+#content .category-box .sub-catemenu ul li a {
+    display: block;
+    text-align: center;
+}
+
+
+/**.cate-containerItems**/
+
+#content .category-box .cate-containerItems .item-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#content .category-box .cate-containerItems .item-row .items {
+    width: 30.33%;
+    margin-top: 10px;
+}
+
+#content .category-box .cate-containerItems .item-row .items a {
+    font-weight: normal;
+    font-size: var(--font-14);
+}
+
+#content .category-box .cate-containerItems .item-row .items a img {
+    width: 100%;
+    height: 250px;
+}
+
+
+/*#footer*/
+
+#footer {
+    background: var(--spec-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 20px 100px 20px;
+}
+
+#footer .f-column {
+    color: #fff;
+}
+
+#footer .f-column h3 {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+#footer .f-column a {
+    color: #fff;
+    opacity: 0.8;
+}
+
+#footer .f-column a:hover {
+    opacity: 1;
+}
+
+#footer .f-column .socials ul li {
+    display: inline-table;
+    margin-right: 10px;
+}
+
+#footer .f-column .socials ul li a span:before {
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+/*#page-info*/
+
+#page-info {
+    background: var(--spec-color-02);
+    padding: 8px;
+}
+
+#page-info p {
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+}
+
+#page-info p a {
+    text-align: center;
+    color: var(--spec-color);
+}
+
+#page-info p:hover,
+#page-info:hover p {
+    opacity: 1;
 }
