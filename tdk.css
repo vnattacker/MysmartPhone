@@ -1,0 +1,40 @@
+#header {
+    position: relative;
+    background-color: #000;
+}
+
+#header h1 a img {
+    height: 90px;
+    width: 140px;
+}
+
+#menu {
+    position: absolute;
+    left: 40%;
+    top: 0;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline-table;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #fff
+}
+
+#menu ul li .submenu {
+    background: #dbdbdb;
+}
+
+#menu ul li .submenu li {
+    display: none;
+}
+
+#menu ul li:hover .submenu li {
+    display: block;
+}

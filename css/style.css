@@ -1,0 +1,156 @@
+/*Stylesheet by TĐK*/
+
+
+/**đặt biến toàn cục**/
+
+:root {
+    --spec-color: #b02780;
+    --spec-color-02: #490036;
+    --opa-color: #757575;
+    --bg-color: #f5f5f5;
+    --border-style: 1px solid #dbdbdb;
+    --bg-body: #e3e3e3;
+    --a-text-color: #333;
+    --a-text-color02: #fff;
+    --icon-family: "Font Awesome 5 Pro";
+    --icon-family-b: "Font Awesome 5 Brands";
+    --font-14: 12px;
+    --font-16: 16px;
+    --font-18: 18px;
+    --font-38: 38px;
+    --price-color: var(--spec-color);
+    --bg-cate-title-01: #e758ff;
+    --bg-cate-title-02: #d8a2d6;
+    --bg-cate-title-03: #9c27b0b5;
+    --icon-arrow-right: "\f054";
+    --icon-fire: "\f06d";
+    --icon-search: "\f002";
+    --icon-login: "\f2f6";
+    --icon-register: "\f234";
+    --icon-cart: "\f07a";
+    --icon-down-arrow: "\f078";
+    --icon-facebook: "\f082";
+    --icon-messenger: "\f39f";
+    --icon-twitter: "\f081";
+    --icon-youtube: "\f167";
+    --icon-instagram: "\e055";
+    --icon-truck: "\f0d1";
+    --icon-truck-ship: "\f0d1";
+    --icon--cart-plus: "\f217";
+    --price-family: sans-serif;
+}
+
+
+/**Reset css**/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/**css mặc định**/
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--bg-body);
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#header,
+#footer {
+    width: auto;
+    max-width: 100%;
+}
+
+#banner,
+#main {
+    width: auto;
+    max-width: 1100px;
+    margin: 10px auto;
+}
+
+img {
+    max-width: 1100px;
+    border-radius: 5px;
+}
+
+.icon:before {
+    font-family: var(--icon-family);
+}
+
+a {
+    text-decoration: none;
+    color: var(--a-text-color);
+    font-size: var(--font-14);
+}
+
+a:hover {
+    color: var(--spec-color);
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+}
+
+.rate-star::before {
+    font-family: var(--icon-family);
+    content: "\f005";
+    font-size: 18px;
+    color: var(--spec-color);
+    font-weight: bold;
+}
+
+.prices {
+    font-size: 13px;
+    color: var(--price-color);
+    font-family: var(--price-family);
+    font-weight: bold;
+}
+
+.facebook:before {
+    font-family: var(--icon-family-b);
+    content: var(--icon-facebook);
+    color: #0977c0;
+}
+
+.twitter:before {
+    font-family: var(--icon-family-b);
+    content: var(--icon-twitter);
+    color: #0977c0;
+}
+
+.instagram:before {
+    font-family: var(--icon-family-b);
+    content: var(--icon-instagram);
+    color: #9b3d19;
+}
+
+.bread {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.bread div {
+    display: inline-table;
+}
+
+.bread div:after {
+    font-family: var(--icon-family);
+    content: var(--icon-arrow-right);
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.bread div:last-child:after {
+    display: none;
+}
