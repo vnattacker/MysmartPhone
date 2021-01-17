@@ -37,6 +37,7 @@
     --icon-truck: "\f0d1";
     --icon-truck-ship: "\f0d1";
     --icon--cart-plus: "\f217";
+    --icon-dau-tick: "\f00c";
     --price-family: sans-serif;
 }
 
@@ -156,4 +157,55 @@ ol {
 
 .bread div:last-child:after {
     display: none;
+}
+
+.icon-checker {
+    font-family: var(--icon-family);
+}
+
+.checker:before {
+    font-size: 14px;
+    content: var(--icon-dau-tick);
+}
+
+.prefix {
+    border-radius: 15px;
+    border: 1px solid #dbdbdb;
+    padding: 2px 3px;
+}
+
+.p-work {
+    background: #39d1f0;
+    margin-right: 5px;
+    color: #fff
+}
+
+.p-home {
+    background: #00ff95;
+    margin-right: 5px;
+    color: #fff
+}
+
+.payment {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.payment img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 0px auto;
+}
+
+.payment p {
+    text-align: center;
+}
+
+.payment:after {
+    content: "";
+    clear: both;
+    display: block;
 }

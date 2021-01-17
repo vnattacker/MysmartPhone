@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/main.css">
     <link rel="stylesheet" href="../css/users.css">
-    <link rel="stylesheet" href="../../css/pages-style.css">
-    <link rel="stylesheet" href="../../css/fontawnsome/css/all.css">
+    <link rel="stylesheet" href="../../../css/pages-style.css">
+    <link rel="stylesheet" href="./../../css/fontawnsome/css/all.css">
     <link rel="stylesheet" href="../../../css/fontawnsome/css/all.min.css">
-    <title>Đăng nhập tài khoản người dùng</title>
+    <title>Đăng nhập vào trang quản trị</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <div id="header-left">
             <!--begin #logo-->
             <div id="logo">
-                <a href="../../shop.html"><img src="../../images/logoweb.png" alt=""></a>
+                <a href="../../../shop.html"><img src="../../../images/logoweb.png" alt=""></a>
             </div>
             <!--end #logo-->
 
@@ -40,10 +40,12 @@
             <div id="nav">
                 <ul>
                     <li>
-                        <a href="AdminPanel/DangNhapAdmin.html">
-                           Đăng nhập vào trang Admin
+                        <a href="../Dangnhap.html">
+                        Đăng nhập vào trang người dùng
+
                         </a>
                     </li>
+
 
 
                 </ul>
@@ -55,7 +57,7 @@
             <div id="user-info">
 
                 <div class="carts">
-                    <a href="../../pages/carts/carts-order.html">
+                    <a href="../../../pages/carts/carts-order.html">
                         <h3 class="icon-carts"></h3>
                         <p>0</p>
                     </a>
@@ -66,14 +68,12 @@
     </div>
     <!--end #header-->
 
-    <div id="main">
-        <!--begin #content-->
-
+    <div id="main-body">
         <!--begin #content-->
         <div id="content">
-            <div class="main-container">
-                <form id="form-action" method="POST" action="userPanel/UserPanel.html" class="form-group login">
-                    <h3 class="form-title">Đăng nhập vào trang người dùng</h3>
+            <div class="main-container acp-container">
+                <form id="form-action" method="POST" action="pages/AdminPanel.html" class="form-group login">
+                    <h3 class="form-title admin-form">Đăng nhập vào trang quản trị</h3>
                     <div class="form-container">
                         <div>
                             <label for="">Tên tài khoản:</label>
@@ -100,7 +100,7 @@
     <!--end #main-->
 
     <!--begin footer-->
-    <dv id="footer">
+    <div id="footer">
         <div class="f-column">
             <h3>Địa chỉ & SĐT</h3>
             <div class="f-contents">
@@ -144,16 +144,16 @@
             </div>
         </div>
 
-        </div>
-        <!--end footer-->
+    </div>
+    <!--end footer-->
 
-        <!--begin #page-info-->
-        <div id="page-info">
-            <p>Copyright &copy;
-                <a href="/">TĐK</a>
-            </p>
-        </div>
-        <!--end #page-info-->
+    <!--begin #page-info-->
+    <div id="page-info">
+        <p>Copyright &copy;
+            <a href="/">TĐK</a>
+        </p>
+    </div>
+    <!--end #page-info-->
 </body>
 
 </html>

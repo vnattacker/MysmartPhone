@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../../../icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../../../css/style.css">
-    <link rel="stylesheet" href="../../../css/main.css">
-    <link rel="stylesheet" href="../../../css/fontawnsome/css/all.css">
-    <link rel="stylesheet" href="../../../css/fontawnsome/css/all.min.css">
+    <link rel="stylesheet" href="../../../../../css/style.css">
+    <link rel="stylesheet" href="../../../../../css/main.css">
+    <link rel="stylesheet" href="../../../../../css/pages-style.css">
+    <link rel="stylesheet" href="../../../css/users.css">
+    <link rel="stylesheet" href="../../../../../css/fontawnsome/css/all.css">
+    <link rel="stylesheet" href="../../../../../css/fontawnsome/css/all.min.css">
 
-    <title>Đề tài 13: Thiết kế website giới thiệu và bán thời trang trẻ em</title>
+    <title>Đơn đã mua - Thông tin đơn hàng</title>
 
 
 </head>
@@ -22,7 +24,7 @@
         <div id="header-left">
             <!--begin #logo-->
             <div id="logo">
-                <a href=""><img src="../../../images/logoweb.png" alt=""></a>
+                <a href="../../../../../shop.html"><img src="../../../../../images/logoweb.png" alt=""></a>
             </div>
             <!--end #logo-->
 
@@ -48,16 +50,16 @@
                         </a>
                         <ul class="sub-menu">
                             <li>
-                                <a href="../../../pages/category/begai/SetDoBeGai.html">Sét đồ bé gái</a>
+                                <a href="../../../../category/begai/SetDoBeGai.html">Sét đồ bé gái</a>
                             </li>
                             <li>
-                                <a href="../../../pages/category/begai/Aobegai.html">Áo bé gái</a>
+                                <a href="../../../../category/begai/Aobegai.html">Áo bé gái</a>
                             </li>
                             <li>
-                                <a href="../../../pages/category/begai/Quanbegai.html">Quần bé gái</a>
+                                <a href="../../../../category/begai/Quanbegai.html">Quần bé gái</a>
                             </li>
                             <li>
-                                <a href="../../../pages/category/begai/Vaybegai.html">Váy bé gái</a>
+                                <a href="../../../../category/begai/Vaybegai.html">Váy bé gái</a>
                             </li>
                         </ul>
                     </li>
@@ -68,13 +70,13 @@
                         </a>
                         <ul class="sub-menu">
                             <li>
-                                <a href="../../../pages/category/betrai/Setdobetrai.html">Sét đồ bé trai</a>
+                                <a href="../../../../category/betrai/SetDoBeTrai.html">Sét đồ bé trai</a>
                             </li>
                             <li>
-                                <a href="../../../pages/category/betrai/Aobetrai.html">Áo bé trai </a>
+                                <a href="../../../../category/betrai/Aobetrai.html">Áo bé trai </a>
                             </li>
                             <li>
-                                <a href="../../../pages/category/betrai/Quanbetrai.html">Quần bé trai</a>
+                                <a href="../../../../category/betrai/Quanbetrai.html">Quần bé trai</a>
                             </li>
                         </ul>
                     </li>
@@ -83,23 +85,11 @@
             </div>
             <!--end #nav-->
 
-
             <!--begin #user-info-->
             <div id="user-info">
-                <div class="login">
-                    <a href="pages/user/Dangnhap.html">
-                        <h3 class="icon-login"></h3>
-                        <h3>Đăng nhập</h3>
-                    </a>
-                </div>
-                <div class="register">
-                    <a href="pages/user/DangKy.html">
-                        <h3 class="icon-register"></h3>
-                        <h3>Đăng ký</h3>
-                    </a>
-                </div>
+
                 <div class="carts">
-                    <a href="pages/carts/carts-order.html">
+                    <a href="../../carts/carts-order.html">
                         <h3 class="icon-carts"></h3>
                         <p>0</p>
                     </a>
@@ -111,50 +101,61 @@
     <!--end #header-->
 
 
-
     <!--begin #main-->
     <div id="main">
-        <!--begin #content-->
-        <div id="content">
-            <!--begin .menuleft-->
-            <div id="menuleft">
-                <!--begin .profiles-->
-                <div class="profiles">
-                    <div class="avatarimg">
-                        <a href="">
-                            <img src="../../../images/logoweb.png" alt="">
-                        </a>
-                    </div>
-                    <div class="usernames">
-                        <a href="">
-                            <h3>TĐK</h3>
-                            <p>(Admin)</p>
-                        </a>
-                    </div>
+        <!--begin #pmenu-left-->
+        <div id="pcontent-left">
+            <div class="puserinfo">
+                <img src="../../../../../images/avatar/avt01.jpg" alt="">
+                <div class="pname">
+                    <p>KTD</p>
+                    <p>(khách hàng)</p>
                 </div>
-                <!--end .profiles-->
-
-                <!--begin .panel-list-->
-                <div class="panel-list">
-                    <div class="pl-items">
-                        <h3>Danh mục quản trị</h3>
-                        <ul>
-                            <li><a href="">Trang chủ</a></li>
-                            <li><a href="">Đăng bài</a></li>
-                            <li><a href="">Quản lý doanh thu</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!--end .panel-list-->
-
             </div>
-            <!--begin .content-right-->
+            <!--begin .pmenu-left-->
+            <ul class="pmenu-left">
+                <li>
+                    <a href="">Quản lý tài khoản</a>
+                    <ul class="psubmenu-left">
+                        <li>
+                            <a href="../../pages/QuanLyTaiKhoan/Thongtincanhan.html">Thông tin cá nhân</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/QuanLyTaiKhoan/Diachithanhtoan.html">Sổ địa chỉ</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/QuanLyTaiKhoan/HinhThucThanhToan.html">Tuỳ chọn thanh toán</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Đơn hàng của tôi</a>
+                    <ul class="psubmenu-left">
+                        <li>
+                            <a href="../../pages/DonHang/DangVanChuyen.html">Đang vận chuyển</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/DonHang/DaMua.html">Đơn đã mua</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/DonHang/DaHuy.html">Đơn đã huỷ</a>
+                        </li>
 
-            <!--end .content-right-->
+                    </ul>
+                </li>
+
+            </ul>
+            <!--end .pmenu-left-->
         </div>
-        <!--end #content-->
 
+        <!--begin #pcontent-right-->
 
+        <div id="pcontent-right">
+            <div class="flex-item">
+                <div class="none-content">Chưa có sản phẩm!</div>
+            </div>
+        </div>
+        <!--end #pcontent-right-->
 
     </div>
     <!--end #main-->
@@ -172,7 +173,7 @@
             <h3>Danh mục</h3>
             <ul>
                 <li>
-                    <a href="index.html">Giới thiệu</a>
+                    <a href="../../../../../index.html">Giới thiệu</a>
                 </li>
                 <li>
                     <a href="mailto:khiem14dnu@gmail.com">Email to:khiem14dnu@gmail.com</a>
@@ -203,10 +204,12 @@
     <!--begin #page-info-->
     <div id="page-info">
         <p>Copyright &copy;
-            <a href="/ ">TĐK</a>
+            <a href="/">TĐK</a>
         </p>
     </div>
     <!--end #page-info-->
 </body>
 
-</html>2
+</html>
+
+</html>

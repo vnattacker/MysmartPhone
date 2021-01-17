@@ -1,0 +1,195 @@
+  /**
+   * **
+   * *
+   * *
+   * *
+   * * USER CSS BY TĐK
+   * *
+   * *
+   * *
+   * *
+   * *
+   */
+  /*CSS mặc định cho bảng quản trị*/
+  
+  #main-panel {
+      background: #fff;
+  }
+  
+  .acp-container {
+      background-image: url("../../../images/banner/bg-banner-03.jpg") !important;
+      background-size: 70% 100% !important;
+  }
+  /*css trang đăng nhập dành cho quản trị viên*/
+  
+  #main-body {
+      width: auto;
+      max-width: 1100px;
+      margin: 7% auto;
+  }
+  
+  #form-action .admin-form {
+      color: #fff;
+      text-shadow: 1px 1px 10px red;
+  }
+  /*****UserPanel CSS******/
+  /*#main*/
+  
+  #main {
+      background-color: #fff;
+      max-width: 98%!important;
+      display: flex;
+      justify-content: space-between;
+  }
+  /*#pcontent-left*/
+  
+  #pcontent-left {
+      width: 16.66%;
+      padding: 20px 10px;
+      border-right: 1px solid #dbdbdb;
+  }
+  
+  #pcontent-left .puserinfo img {
+      width: 64px;
+      height: 64px;
+      display: block;
+      float: left;
+      border-radius: 50%;
+      margin-right: 10px;
+  }
+  
+  #pcontent-left .puserinfo .pname {
+      font-weight: bold;
+      color: red;
+  }
+  
+  #pcontent-left .puserinfo .pname p {
+      line-height: 2.27em;
+  }
+  
+  #pcontent-left .puserinfo .pname p:last-child {
+      color: #444;
+      font-size: 13px;
+      font-style: italic;
+  }
+  
+  #pcontent-left .puserinfo:after {
+      clear: both;
+      display: block;
+      content: "";
+  }
+  
+  #pcontent-left .pmenu-left {
+      margin-top: 20px;
+  }
+  
+  #pcontent-left .pmenu-left li {
+      font-weight: bold;
+  }
+  
+  #pcontent-left .psubmenu-left li {
+      font-weight: normal;
+      padding: 8px 10px;
+  }
+  /*#pcontent-right*/
+  
+  #pcontent-right {
+      width: 80.34%;
+  }
+  
+  #pcontent-right .padress-container .pac-row {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: nowrap;
+      border: 1px solid #dbdbdb;
+  }
+  
+  #pcontent-right .padress-container .pac-row .pac-cols {
+      width: 16.6%;
+      margin-right: 10px;
+      border-right: 1px solid #dbdbdb;
+      padding: 10px;
+  }
+  
+  #pcontent-right .padress-container .pac-row .pacc-05 p {
+      text-align: center;
+  }
+  
+  #pcontent-right .padress-container .pac-row .pac-cols:last-child {
+      border-style: none;
+  }
+  
+  #pcontent-right .edit-form .form-group {
+      width: auto;
+      max-width: 80%;
+      margin: 20px auto;
+  }
+  
+  #pcontent-right .edit-form .form-group .form-row {
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  #pcontent-right .edit-form .form-group .form-row div {
+      width: 32.33%;
+      margin-top: 10px;
+  }
+  
+  #pcontent-right .edit-form .form-group .form-row:last-child div {
+      justify-self: center;
+  }
+  
+  #pcontent-right .edit-form .form-group .form-row div label {
+      width: 90px;
+      float: left;
+      display: block;
+  }
+  
+  #pcontent-right .edit-form .form-group .form-row input {
+      padding: 10px;
+      border: 1px solid #dbdbdb;
+      border-radius: 6px;
+      width: 60%;
+      pointer-events: none;
+  }
+  
+  #pcontent-right .edit-form .form-group .button-group {
+      width: 230px;
+      display: flex;
+      justify-content: space-around;
+      margin: 30px auto;
+  }
+  
+  #pcontent-right .edit-form .form-group .button-group button {
+      padding: 15px 10px;
+      display: block;
+      margin: 0px auto;
+      float: left;
+  }
+  
+  #main:after,
+  #pcontent-right .edit-form .form-group .form-row div:after,
+  #pcontent-right .edit-form .form-group .button-group:after {
+      display: block!important;
+      content: ""!important;
+      clear: both!important;
+  }
+  /******AdminPanel css******/
+  /*#ap-main */
+  
+  #ap-main {
+      background: #fff;
+      width: auto;
+      max-width: 90%;
+      margin: 10px auto;
+      display: flex;
+      justify-content: space-around;
+  }
+  /**#ap-leftcontent*/
+  
+  #ap-leftcontent .apl-avatar img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+  }
